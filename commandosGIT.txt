@@ -51,3 +51,9 @@ git show-branch --all: muestra las ramas y su historia más otros elementos
 gitk : Abre la historia en otra interfaz
 
 git clone #url : Copiar un repositorio remoto
+
+git stash : Regresa a antes de hacer cambios y los cambios los guarda en otro directorio
+git stash list : Muestra los cambios que se han guardado con el comando
+git stash pop : Regresa los cambios que se habían guardado
+git stash branch #nombre : Guarda los cambios en el statch en una nueva rama
+git stash drop : Borra los cambios guardados en stash
