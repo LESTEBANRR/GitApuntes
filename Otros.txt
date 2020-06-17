@@ -18,3 +18,6 @@ Topicos Extra
 -Ir al repositorio e ir a Clone or Download
 -Copiar URL de SSH.
 -Cambiar en git la url del repositorio remoto con $ git remote set-url origin urlssh
+
+°Crear Alias
+- $ alias nombre=" comando "
