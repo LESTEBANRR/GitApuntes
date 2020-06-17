@@ -29,6 +29,7 @@ git config --globlal user.email #email; Cambia el email del usuario
 
 git branch :muestra las ramas que hay 
 git branch #nombre : crea una nueva rama
+git branch -D #rama : borra una rama
 
 git remote add origin #url: crear repositorio remoto
 git remote -v : ver repositorio remoto
