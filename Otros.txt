@@ -1,0 +1,5 @@
+Topicos Extra
+
+°Cambiar Credenciales de GitHub
+-Ir a Panel de Control /User Accounts/ Credential Manager , luego seleccionamos credenciales de Windows.
+-buscar git.https://github.com y editar
