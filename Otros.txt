@@ -27,3 +27,7 @@ Topicos Extra
 -Ir a la opcion Colaborators
 -Ingresar Email publico o nombre de Usuario
 
+°Ignorar archivos en git
+-crear en la raíz del proyecto un archivo llamado .gitignore
+-dentro del archivo escribir el nombre de los archivos que deseas que git ignore (usar *.extension si se desea que todos los archivos de ese tipo sean ignorados).
+-guardar el archivo y añadirlo a git
