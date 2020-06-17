@@ -42,4 +42,4 @@ git tag -a version  -m "comentario" hash : añadir un nuevo tag
 git show-ref --tags : Muestra los tags con sus respectivas referencias
 git push origin --tags : enviar los tags al repositorio remoto
 git tag -d #tag : Borrar tag local
-fit push origin :refs/tags/#tag : Borrar tags remoto
+git push origin :refs/tags/#tag : Borrar tags remoto
