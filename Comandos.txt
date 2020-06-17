@@ -16,4 +16,4 @@ $ history : Muestra todos los comando anteriormente realizados
 $ !#numero : Ejecuta un comando que se realizó anteriormente, el numero se muestra con el comando history
 $ rm #archivo : Borra un archivo
 $ #comando --help : muestra ayuda del comando
-
+$ vi #archivo : permite editar un archivo de texto plano en el editor de la consola
