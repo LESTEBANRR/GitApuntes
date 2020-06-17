@@ -6,9 +6,15 @@ Topicos Extra
 -Ir a Panel de Control /User Accounts/ Credential Manager , luego seleccionamos credenciales de Windows.
 -buscar git.https://github.com y editar
 
-°Crear llave SSH
+°Crear llave SSH (Crear llaves diferentes para cada computador)
 -Es recomendable estar en le home (para ir home se usa $ cd).
 -Escribir el comando $ ssh-keygen -t rsa -b 4096 -C "correo".
 -Verificar Llave con $ eval $(ssh-agent -s)
 -Agregar LLave con $ ssh-add ~/.ssh/id_rsa
-
+-Copiar el contenido de .ssh/id_rsa.pub
+-Ir a la configuracion de tu cuenta GitHub.
+-Ir a SSH and GPG keys
+-New SSH Key , agregar titulo y pegar la llave SSH
+-Ir al repositorio e ir a Clone or Download
+-Copiar URL de SSH.
+-Cambiar en git la url del repositorio remoto con $ git remote set-url origin urlssh
