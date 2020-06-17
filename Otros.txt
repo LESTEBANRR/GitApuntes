@@ -1,5 +1,14 @@
 Topicos Extra
 
+° " ~ " es un shortcut que tiene la url de la carpeta home
+
 °Cambiar Credenciales de GitHub
 -Ir a Panel de Control /User Accounts/ Credential Manager , luego seleccionamos credenciales de Windows.
 -buscar git.https://github.com y editar
+
+°Crear llave SSH
+-Es recomendable estar en le home (para ir home se usa $ cd).
+-Escribir el comando $ ssh-keygen -t rsa -b 4096 -C "correo".
+-Verificar Llave con $ eval $(ssh-agent -s)
+-Agregar LLave con $ ssh-add ~/.ssh/id_rsa
+
