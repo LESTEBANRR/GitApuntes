@@ -48,3 +48,5 @@ git show-branch : muestra las ramas y su historia
 git show-branch --all: muestra las ramas y su historia más otros elementos
 
 gitk : Abre la historia en otra interfaz
+
+git clone #url : Copiar un repositorio remoto

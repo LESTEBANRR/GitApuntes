@@ -19,5 +19,11 @@ Topicos Extra
 -Copiar URL de SSH.
 -Cambiar en git la url del repositorio remoto con $ git remote set-url origin urlssh
 
-°Crear Alias
+°Crear Alias en BASH
 - $ alias nombre=" comando "
+
+°Añadir Usuarios al repositorio
+-Ir a Settings del repositorio
+-Ir a la opcion Colaborators
+-Ingresar Email publico o nombre de Usuario
+
