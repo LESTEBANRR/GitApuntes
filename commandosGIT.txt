@@ -43,3 +43,8 @@ git show-ref --tags : Muestra los tags con sus respectivas referencias
 git push origin --tags : enviar los tags al repositorio remoto
 git tag -d #tag : Borrar tag local
 git push origin :refs/tags/#tag : Borrar tags remoto
+
+git show-branch : muestra las ramas y su historia
+git show-branch --all: muestra las ramas y su historia más otros elementos
+
+gitk : Abre la historia en otra interfaz
