@@ -40,3 +40,5 @@ git pull origin rama --allow-unrelated-histories : traer archivos de un reposito
 git tag : ver los tag hechos
 git tag -a version  -m "comentario" hash : añadir un nuevo tag
 git show-ref --tags : Muestra los tags con sus respectivas referencias
+git push origin --tags : enviar los tags al repositorio remoto
+git tag -d #tag : Borrar tag 
