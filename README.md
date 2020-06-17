@@ -1,4 +1,4 @@
-# **Git Apuntes** :tw-1f310:
+# **Git Apuntes** 
 ### Contenido
 
 - Comandos de Git
