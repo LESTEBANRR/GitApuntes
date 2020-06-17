@@ -36,3 +36,7 @@ git remote -v : ver repositorio remoto
 git push origin rama : enviar rama al repositorio remote
 git pull origin rama : traer archivos del repositorio
 git pull origin rama --allow-unrelated-histories : traer archivos de un repositorio remoto aunque tengan historias distintasgit config 
+
+git tag : ver los tag hechos
+git tag -a version  -m "comentario" hash : añadir un nuevo tag
+git show-ref --tags : Muestra los tags con sus respectivas referencias
