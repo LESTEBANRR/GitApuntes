@@ -1,0 +1,19 @@
+Git Bash Commands
+
+$ pwd - Te dice tu ubicación actual
+$ cd -Te mueve a otra ubicación
+$ cd / - te mueve a la raíz del disco
+$ ls -Listar los archivos que se tienen
+$ ls -al Listar todos los archivos de la ruta incluso los ocultos
+$ ls -l Listar todos los archivos menos los ocultos
+$ ls -a Mostar los archivos pero no en lista
+$ clear - Limpia la consola (CTRL + L)
+$ cd .. - Regresar a la carpeta anterior
+$ mkdir nombre - Crea una carpeta
+$ touch nombre.extension -Crea archivos vacios
+$ cat archivo.extension -Abre rapidamente un archivo
+$ history -Muestra todos los comando anteriormente realizados
+$ !numero -Ejecuta un comando que se realizó anteriormente, el numero se muestra con el comando history
+$ rm archivo -Borra un archivo
+$ comando --help -muestra ayuda del comando
+

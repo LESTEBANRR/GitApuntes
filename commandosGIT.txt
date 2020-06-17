@@ -1,0 +1,38 @@
+git init : inicia el repositorio.
+git add : añade un archivo al staging (memoria temporal para los cambios).
+git add . :añade todos los archivos modificados
+git commit : añade los cambios de staging al repositorio.
+git commit -am "comentario" : forma compacta de add y commit
+
+code archivo: abre la aplicación de Visual Studio code y el archivo especificado
+
+git status : muestra el estado del proyecto
+git rm --catched :quita un archivo del staging y del proximo commit pero no los del disco duro
+git rm --force : elimina los archivos de git y del disco duro.
+git commit -m "--" : Crea un commit con comentario
+git log archivo : muestra el historial de cambios
+git log --stat : Muestra los cambios en cada commit (presionar q para salir)
+git show archivo: muestra los cambios de un archivo
+git diff id1 id2: muestra las diferencias entre dos commits
+
+git reset id --hard : revierte cambios en todo, borra el staging
+git reset id --soft : revierte cambios en todo, no borra el staging
+git reset HEAD : Elimina los archivos del staging
+
+git checkout id archivo : 
+
+git config : configurar git
+git config --list
+git config --list --show-origin : muestra las configuraciones guardadas
+git config --globlal user.name ; Cambia el nombre del usuario
+git config --globlal user.email ; Cambia el email del usuario
+
+git branch :muestra las ramas que hay 
+git branch nombre : crea una nueva rama
+
+git remote add origin url: crear repositorio remoto
+git remote -v : ver repositorio remoto
+
+git push origin rama : enviar rama al repositorio remote
+git pull origin rama : traer archivos del repositorio
+git pull origin rama --allow-unrelated-histories : traer archivos de un repositorio remoto aunque tengan historias distintasgit config 
