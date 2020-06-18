@@ -62,3 +62,7 @@ git clean --dry-run : Muestra los archivos que se pueden borrar
 git clean -f: Borra los archivos no las carpetas
 
 git cherry-pick #hash1 #hash2 #hashn : trae uno o varios commits a la rama actual
+
+° amend: modifica el commit de HEAD
+-antes de hacerlo se debe añadir el cambio
+- git commit --amend  : Se guardan los cambios en el commit anterior no en uno nuevo
