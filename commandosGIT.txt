@@ -66,3 +66,8 @@ git cherry-pick #hash1 #hash2 #hashn : trae uno o varios commits a la rama actua
 ° amend: modifica el commit de HEAD
 -antes de hacerlo se debe añadir el cambio
 - git commit --amend  : Se guardan los cambios en el commit anterior no en uno nuevo
+
+°Deshacer cambios drasticos
+- usar $git reflog para ver todos los registros incluso los borrados.
+- buscar el hash del commit al que se quiere volver.
+-usar $git reset --hard #hash para regresar.
