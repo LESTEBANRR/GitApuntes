@@ -71,3 +71,9 @@ git cherry-pick #hash1 #hash2 #hashn : trae uno o varios commits a la rama actua
 - usar $git reflog para ver todos los registros incluso los borrados.
 - buscar el hash del commit al que se quiere volver.
 -usar $git reset --hard #hash para regresar.
+
+git grep #palabra : te dice en que archivos se uso #palabra
+git grep -n #palabra : te dice en que archivos y lineas se uso #palabra.
+git grep -c #palabra :te dice cuantas veces usas #palabra en los archivos.
+
+git log -S "#palabra" : muestra todos los commits en los que se uso #palabra.
