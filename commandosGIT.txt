@@ -60,3 +60,5 @@ git stash drop : Borra los cambios guardados en stash
 
 git clean --dry-run : Muestra los archivos que se pueden borrar
 git clean -f: Borra los archivos no las carpetas
+
+git cherry-pick #hash1 #hash2 #hashn : trae uno o varios commits a la rama actual
