@@ -77,3 +77,17 @@ git grep -n #palabra : te dice en que archivos y lineas se uso #palabra.
 git grep -c #palabra :te dice cuantas veces usas #palabra en los archivos.
 
 git log -S "#palabra" : muestra todos los commits en los que se uso #palabra.
+
+git shortlog : muestra los commits de todos colaboradores
+git shorlog -sn : muestra solo el numero de commits de los colaboradores.
+git shortlog -sn --all: muestra solo el numero de commits de los colaboradores incluso los borrados.
+git shortlog -sn --all --no-merges : muestra solo el numero de commits de los colaboradores pero no los que fueron creados con merge.
+
+°Alias en GIT
+git config --global alias.#nombre "#comando sin la palabra git"
+
+git blame #archivo :muestra el archivo y quien modifico las lineas.
+git blame -c #archivo : muestra el archivo y quien modifico las lineas con mejor visualizacion.
+git blame -c #archivo -L#lineaI,#lineaF : muestra quien modifico las lineas en el rango indicado.
+
+git branch -r : ver las ramas remotas
